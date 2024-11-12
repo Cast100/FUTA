@@ -1,0 +1,25 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    
+  }
+  .branding{
+    background-color: #08071c;
+    color: #fff;
+    padding: 80px 0;
+  }
+  .branding h1 {
+    font-size: 40px;
+    color: #f4f4f4;
+    margin-right: 16px;
+  }
+  .branding h2{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px 20px 0;
+  }
+  .branding p{
+    color: #fff;
+    opacity: 0.7;
+  }

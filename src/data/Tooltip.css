@@ -1,0 +1,25 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    position: absolute;
+    /* Position above the target element */
+    bottom: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; /* Ensures the tooltip doesn't interfere with mouse events */
+  }
+  
+  .tooltip-container:hover .tooltip {
+    opacity: 1; /* Make tooltip visible on hover */
+  }
+  
